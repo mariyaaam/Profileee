@@ -1,0 +1,211 @@
+*{
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+}
+h1{
+    color: rgb(194, 88, 106);
+}
+h2{
+    color: rgb(194, 88, 106);
+}
+
+/*Navbar*/
+
+
+header{
+    background-color: rgb(226, 150, 163);
+    padding: 20px;
+}
+header nav{  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header nav ul li{
+  display: inline;
+ 
+}
+header nav ul li a{
+    padding: 20px;
+    text-decoration: none;
+    color: black;  
+}
+.logo{
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+
+/*frontcontainer*/
+
+.frontcontainer{
+background-color: pink ;
+height:500px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.inner-frontcontainer{
+    text-align: center;
+    background-color: pink;
+    height: 100px;
+    width: 300px;
+    
+}
+/*introcontainer*/
+
+.introcontainer{
+ background-color: pink ;
+height:600px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+img{
+    position: relative;
+   border-radius: 50%;
+   height: 150px;
+   width: 150px;
+   align-items: center;
+}
+.inner-introcontainer{
+    height: 400px;
+    width: 350px;
+    background-color: pink;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+/*skillcontainer*/
+.skill{
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    background-color: pink;
+}
+
+.skillcontainer{
+    background-color: pink;
+height:450px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#a{
+
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin: 50px;
+}
+
+.one-skillcontainer{
+    height: 350px;
+    width: 380px;
+    background-color: pink;
+    
+   
+}
+.two-skillcontainer{
+    height: 350px;
+    width: 380px;
+    background-color: pink;
+    
+}
+
+
+
+/*aboutcontainer*/
+.aboutcontainer{
+    background-color: pink ;
+height:600px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+} 
+.inner-aboutcontainer{
+    height: 200px;
+    width: 350px;
+    background-color: pink;
+    text-align: center;
+}
+
+/*contactcontainer*/
+
+.contactcontainer{
+    background-color: pink ;
+    height:180px;
+    width: 100%;
+    
+    }
+    footer{
+        background-color: rgb(226, 150, 163);
+        padding: 20px;
+        text-align: center;
+    }
+    footer nav{  display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+       
+        
+    }
+    footer nav ul li{
+      display: inline;
+      font-family: "Montserrat", sans-serif;
+       
+    }
+    footer nav ul li a{
+        padding: 40px;
+        text-decoration: none;
+        color: black;  
+    }
+    .copyright {
+        color: #eaf6f6;
+        font-size: 0.75rem;
+        padding: 7px 0;
+        text-align: center;
+    }
+    @media (min-width: 100px) and (max-width: 700px){
+        header nav ul li{
+            display: none;
+           
+          }
+          header nav ul li a{
+            display: block;
+               
+          }
+          .logo{
+              font-size: 30px;
+              padding-left: 20px;
+          }
+          p{
+            font-size: 10px;
+          }
+          #a{
+            margin: 20px;
+          }
+          img {
+            position: relative;
+           border-radius: 50%;
+           height: 100px;
+           width: 100px;
+           align-items: center;
+        }
+           .logo{
+            font-size: 20px;
+            padding-left: 20px;
+        }
+    }
+  
+
+
+
